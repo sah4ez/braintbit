@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/sah4ez/hdd-backups/work/git/brainbit/example/build2",
+  "command": "/usr/bin/c++  -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner  -o CMakeFiles/example.dir/main.cc.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/main.cc",
+  "file": "/home/sah4ez/hdd-backups/work/git/brainbit/example/main.cc"
+},
+{
+  "directory": "/home/sah4ez/hdd-backups/work/git/brainbit/example/build2",
+  "command": "/usr/bin/c++  -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner  -o CMakeFiles/example.dir/main_scanner.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/main_scanner.cpp",
+  "file": "/home/sah4ez/hdd-backups/work/git/brainbit/example/main_scanner.cpp"
+},
+{
+  "directory": "/home/sah4ez/hdd-backups/work/git/brainbit/example/build2",
+  "command": "/usr/bin/c++  -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner  -o CMakeFiles/example.dir/main_brainbit.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/main_brainbit.cpp",
+  "file": "/home/sah4ez/hdd-backups/work/git/brainbit/example/main_brainbit.cpp"
+},
+{
+  "directory": "/home/sah4ez/hdd-backups/work/git/brainbit/example/build2",
+  "command": "/usr/bin/c++  -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner  -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit.cpp",
+  "file": "/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit.cpp"
+},
+{
+  "directory": "/home/sah4ez/hdd-backups/work/git/brainbit/example/build2",
+  "command": "/usr/bin/c++  -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner  -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_info.cpp",
+  "file": "/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_info.cpp"
+},
+{
+  "directory": "/home/sah4ez/hdd-backups/work/git/brainbit/example/build2",
+  "command": "/usr/bin/c++  -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner  -o CMakeFiles/example.dir/libs/includes/log.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes/log.cpp",
+  "file": "/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes/log.cpp"
+},
+{
+  "directory": "/home/sah4ez/hdd-backups/work/git/brainbit/example/build2",
+  "command": "/usr/bin/c++  -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner  -o CMakeFiles/example.dir/libs/scanner/scanner.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner/scanner.cpp",
+  "file": "/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner/scanner.cpp"
+}
+]

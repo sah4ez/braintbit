@@ -1,0 +1,5 @@
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles/rebuild_cache.dir
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles/edit_cache.dir
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles/example.dir
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/_deps/json-build/CMakeFiles/rebuild_cache.dir
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/_deps/json-build/CMakeFiles/edit_cache.dir
