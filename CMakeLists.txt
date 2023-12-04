@@ -44,6 +44,7 @@ set(
 	main_brainbit.cpp
 	main_brainbit_filters.cpp
     libs/brainbitsdk/brainbit.cpp
+    libs/includes/mathLib.cpp
     libs/brainbitsdk/filtersLib.cpp
     libs/brainbitsdk/brainbit_info.cpp
     libs/brainbitsdk/brainbit_filters.cpp

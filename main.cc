@@ -49,8 +49,8 @@ int main()
     // json object = { { "msg", "start" }, { "p", 1 } };
     // std::cout << object << '\n';
     std::cout << "hello1" << '\n';
-	// BrainBitFunction();
-	BrainBitFiltersFunction();
+    BrainBitFunction();
+	// BrainBitFiltersFunction();
     // object = { { "msg", "end" }, { "p", 2 } };
     std::cout << "hello2" << '\n';
     return 0;

@@ -1,4 +1,6 @@
 #include "main_brainbit.h"
+#include "mathLib.h"
+#include <unistd.h>
 
 // ==============
 // || BRAINBIT ||
@@ -22,40 +24,22 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
 
 	//Connect to device
 	brainbit->connect();
+    int32_t power_t = brainbit->readBatteryPower();
+    std::cout << "power: " << power_t << std::endl;
 
-	//Add callback to get information about batter power of device
-//	brainbit->addBatteryCallback();
-//
-//	//Remove callback to stop getting information about batter power of device
-//	//If you use callbacks, don't forget to remove them.
-//	//In custom class 'SampleBrainBit' if user forget to remove, in
-//	//destructor there is a algorythm to check, remove or not callbacks
-//    brainbit->removeBatteryCallback();
-//
-//	//To get information signal data from device we need to use
-//	//callback 'SignalCallbackBrainBit'.
-//    brainbit->addSignalCallbackBrainBit();
-//
-//	//Don't forget to remove callback signal data
-//    brainbit->removeSignalCallbackBrainBit();
-//
-//	//To get information resist data from device we need to use
-//	//callback 'ResistDataCallbackBrainBit'.
-//    brainbit->addResistDataCallbackBrainBit();
-//
-//	//Don't forget to remove callback resist data
-//    brainbit->removeResistDataCallbackBrainBit();
-//
-//	//To get data offset of brainbit use function 'readDataOffset'
-	// SensorDataOffset dataOffset = brainbit->readDataOffset();
-//
-//	//To get firmware mode of brainbit use function 'readFirmwareMode'
-//	SensorFirmwareMode firmwareMode = brainbit->readFirmwareMode();
-//
-//	//To execuate command we use function 'execCommand'.
-//	//Before use this command you need to be sure,
-//	//that this device supports this command
-//
+    int32_t cnt = brainbit->getChannelsCount();
+    std::cout << "channel_count: " << cnt << std::endl;
+    //
+    //Create custom object of EmStArtifacts
+    //
+    MathLibSample* mathLib = new MathLibSample();
+    //
+    //      //If lib is null, stop code
+    if (mathLib == nullptr)
+            return;
+
+    brainbit->AddSignalCallbackBrainBit_EmStArtifacts(mathLib);
+
 	SensorCommand command = SensorCommand::CommandStartSignal;
 //
 	bool isSupport = brainbit->isSupportedCommand(command);
@@ -73,7 +57,12 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
 		EConsole::PrintLog("[WARNING] [This command is not supported by device!");
 	}
 
+
+    EConsole::PrintLog("exec command and wait callback");
+	sleep(10);
+
 	//If you don't use object of custom class, you need to
 	// delete to clear memory.
+	brainbit->RemoveSignalCallbackBrainBit_EmStArtifacts();
 	delete brainbit;
 }
