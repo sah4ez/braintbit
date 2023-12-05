@@ -9,7 +9,7 @@ namespace EConsole
 {
 
 //// Get current date/time, format is YYYY-MM-DD.HH:mm:ss
-    const std::string currentDateTime() {
+    const std::string CurrentDateTime() {
         time_t     now = time(0);
         struct tm  tstruct;
         char       buf[80];
@@ -25,7 +25,7 @@ namespace EConsole
     {
         try
         {
-            std::cout << currentDateTime();
+            std::cout << CurrentDateTime();
             return true;
         }
         catch (...)

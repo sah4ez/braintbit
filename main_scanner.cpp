@@ -47,12 +47,9 @@ Sensor* SampleScannerFunction()
 	//Print information of all found devices
 	for (int i = 0; i < listDevices.size(); i++)
 	{
-		EConsole::PrintLog("[SENSOR] [NAME] : ");
-		EConsole::PrintLog(listDevices[i].Name);
-		EConsole::PrintLog(" [SERIAL NUMBERS] :");
-		EConsole::PrintLog(listDevices[i].SerialNumber);
-		EConsole::PrintLog(" [ADDRESS] :");
-		EConsole::PrintLog(listDevices[i].Address);
+        std::cout << "[SENSOR] [NAME]: " << listDevices[i].Name << std::endl;
+        std::cout << "[SERIAL NUMBERS]: " << listDevices[i].SerialNumber << std::endl;
+        std::cout << "[ADDRESS]: " << listDevices[i].Address << std::endl;
 	}
 
 	//Create SensorInfo of first found device to create object of Sensor

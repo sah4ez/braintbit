@@ -6,7 +6,7 @@ namespace EConsole
 {
 
 	bool PrintScreen(const char* fmt...);
-    const std::string currentDateTime() ;
+    const std::string CurrentDateTime() ;
     inline bool PrintNowTime();
     bool PrintLog(const char* fmt...);
     bool PrintScreenLine(const char* fmt...);

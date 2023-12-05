@@ -441,7 +441,8 @@ Sensor* SampleScanner::CreateSensor(SensorInfo device)
 	catch (std::exception error)
 	{
 		//Print Error Message on Console.
-		EConsole::PrintScreen("[[8ERROR : ", error.what(), " ]]");
+		EConsole::PrintScreen("[[8ERROR : ");
+		EConsole::PrintScreen(error.what());
 		//Return false value means our algorythm is working incorrect.
 		return nullptr;
 	}

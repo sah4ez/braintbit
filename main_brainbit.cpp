@@ -29,9 +29,13 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
 
     int32_t cnt = brainbit->getChannelsCount();
     std::cout << "channel_count: " << cnt << std::endl;
-    //
-    //Create custom object of EmStArtifacts
-    //
+
+    int8_t freq = brainbit->readSamplingFrequency();
+    std::cout << "sampling freq: " << freq << std::endl;
+
+    int32_t gain = brainbit->readGain();
+    std::cout << "gain: " << gain << std::endl;
+
     MathLibSample* mathLib = new MathLibSample();
     //
     //      //If lib is null, stop code
@@ -39,17 +43,25 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
             return;
 
     brainbit->AddSignalCallbackBrainBit_EmStArtifacts(mathLib);
+    //
+
+    SensorParameter parameter =  SensorParameter::ParameterSamplingFrequency;
+	bool isSupportParam = brainbit->isSupportedParameter(parameter);
+    if (isSupportParam) {
+		EConsole::PrintLog("[LOG] supported parameter");
+    }
+
 
 	SensorCommand command = SensorCommand::CommandStartSignal;
-//
+
 	bool isSupport = brainbit->isSupportedCommand(command);
-//
+
 	if (isSupport)
 	{
 		EConsole::PrintLog("[LOG] [This command is supported by device!");
-//
-//		//If this command is supported by device, you can execuate it
-//
+  
+  		//If this command is supported by device, you can execuate it
+  
 		brainbit->execCommand(command);
 	}
 	else
@@ -59,10 +71,10 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
 
 
     EConsole::PrintLog("exec command and wait callback");
-	sleep(10);
+    sleep(100);
 
 	//If you don't use object of custom class, you need to
 	// delete to clear memory.
-	brainbit->RemoveSignalCallbackBrainBit_EmStArtifacts();
+    brainbit->RemoveSignalCallbackBrainBit_EmStArtifacts();
 	delete brainbit;
 }

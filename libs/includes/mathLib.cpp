@@ -147,11 +147,15 @@ void MathLibSample::printResult()
 
 		for (int i = 0; i < size; i++)
 		{
-			EConsole::PrintLog("Delta: ", spectralData[i].Delta * 100.0, "%");
-			EConsole::PrintLog("Theta: ", spectralData[i].Theta * 100.0, "%");
-			EConsole::PrintLog("Alpha: ", spectralData[i].Alpha * 100.0, "%");
-			EConsole::PrintLog("Beta: ", spectralData[i].Beta * 100.0, "%");
-			EConsole::PrintLog("Gamma: ", spectralData[i].Gamma * 100.0, "%");
+            std::cout << "Delta: " << spectralData[i].Delta * 100.0 << "%" << std::endl;
+            std::cout << "Theta: " << spectralData[i].Theta * 100.0 << "%" << std::endl;
+            std::cout << "Alpha: " << spectralData[i].Alpha * 100.0 << "%" << std::endl;
+            std::cout << "Beta: " << spectralData[i].Beta * 100.0 << "%" << std::endl;
+            std::cout << "Gamma: " << spectralData[i].Gamma * 100.0 << "%" << std::endl;
+			// EConsole::PrintLog("Theta: ", spectralData[i].Theta * 100.0, "%");
+			// EConsole::PrintLog("Alpha: ", spectralData[i].Alpha * 100.0, "%");
+			// EConsole::PrintLog("Beta: ", spectralData[i].Beta * 100.0, "%");
+			// EConsole::PrintLog("Gamma: ", spectralData[i].Gamma * 100.0, "%");
 		}
 
 		delete[] spectralData;
