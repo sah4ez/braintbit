@@ -13,27 +13,42 @@ void SignalCallback_EmStArtifacts(Sensor* sensor, BrainBitSignalData* data, int3
 {
     // EConsole::PrintLog("=== BRAIN BIT SIGNAL DATA ===");
     RawChannels* arr = new RawChannels[size];
-    std::ofstream outdata ("signals.csv", std::ios::out | std::ios::app);
+    std::ofstream out_dt ("../dt.cpp", std::ios::out | std::ios::app);
+    std::ofstream out_o1 ("../o1.cpp", std::ios::out | std::ios::app);
+    std::ofstream out_o2 ("../o2.cpp", std::ios::out | std::ios::app);
+    std::ofstream out_t3 ("../t3.cpp", std::ios::out | std::ios::app);
+    std::ofstream out_t4 ("../t4.cpp", std::ios::out | std::ios::app);
     for (int i = 0; i < size; i++)
     {
             arr[i].left_bipolar = data[i].T3 - data[i].O1;
             arr[i].right_bipolar = data[i].T4 - data[i].O2;
 
-            outdata << EConsole::CurrentDateTime();
-            outdata << ";" <<data[i].PackNum;
-            outdata << ";" <<data[i].O1;
-            outdata << ";" << data[i].O2;
-            outdata << ";" <<data[i].T3;
-            outdata << ";" << data[i].T4;
-            outdata << std::endl;
+            out_dt << "," <<EConsole::CurrentDateTime();
+            out_dt << std::endl;
+
+            out_o1 << "," <<data[i].O1;
+            out_o1 << std::endl;
+
+            out_o2 << "," << data[i].O2;
+            out_o2 << std::endl;
+
+            out_t3 << "," <<data[i].T3;
+            out_t3 << std::endl;
+
+            out_t4 << "," << data[i].T4;
+            out_t4 << std::endl;
             // EConsole::PrintLog("Left bipolar: ", arr[i].left_bipolar);
             // EConsole::PrintLog("Right bipolar: ", arr[i].right_bipolar);
         }
-    outdata.close();
-    MathLibSample* mathLib = (MathLibSample*)userData;
+    out_dt.close(); 
+    out_o1.close(); 
+    out_o2.close(); 
+    out_t3.close(); 
+    out_t4.close(); 
+    // MathLibSample* mathLib = (MathLibSample*)userData;
 
-    mathLib->pushData(arr, size);
-    mathLib->processData();
+    // mathLib->pushData(arr, size);
+    // mathLib->processData();
     // mathLib->printResult();
 
     delete[] arr;

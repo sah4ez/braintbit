@@ -73,38 +73,18 @@ CMAKE_BINARY_DIR = /home/sah4ez/hdd-backups/work/git/brainbit/example/build2
 
 # The main recursive "all" target.
 all: CMakeFiles/example.dir/all
-all: _deps/json-build/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: _deps/json-build/preinstall
+preinstall:
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/example.dir/clean
-clean: _deps/json-build/clean
 
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory _deps/json-build
-
-# Recursive "all" directory target.
-_deps/json-build/all:
-
-.PHONY : _deps/json-build/all
-
-# Recursive "preinstall" directory target.
-_deps/json-build/preinstall:
-
-.PHONY : _deps/json-build/preinstall
-
-# Recursive "clean" directory target.
-_deps/json-build/clean:
-
-.PHONY : _deps/json-build/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/example.dir
@@ -113,12 +93,12 @@ _deps/json-build/clean:
 CMakeFiles/example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target example"
 .PHONY : CMakeFiles/example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles 0
 .PHONY : CMakeFiles/example.dir/rule

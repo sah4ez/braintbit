@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes -I/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner
 
-CXX_FLAGS = 
+CXX_FLAGS = -g -std=c++17
 

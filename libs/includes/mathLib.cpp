@@ -6,12 +6,12 @@ MathLibSample::MathLibSample()
 	{
 		//Create setting for lib
 		MathLibSetting mathLibSetting;
-		mathLibSetting.sampling_rate = 250;
+		mathLibSetting.sampling_rate = 1000;
 		mathLibSetting.process_win_freq = 25;
 		mathLibSetting.n_first_sec_skipped = 4;
-		mathLibSetting.fft_window = 1000;
-		mathLibSetting.bipolar_mode = true;
-		mathLibSetting.channels_number = 2;
+		mathLibSetting.fft_window = 10;
+		mathLibSetting.bipolar_mode = false;
+		mathLibSetting.channels_number = 4;
 		mathLibSetting.channel_for_analysis = 1;
 
 		ArtifactDetectSetting artifactDetectSetting;
@@ -43,7 +43,8 @@ MathLibSample::MathLibSample()
 	catch (std::exception error)
 	{
 		//Print Error Message on Console.
-		EConsole::PrintScreen("[[ERROR : ", error.what(), " ]]");
+		EConsole::PrintScreen("new lib [[ERROR : ");
+		EConsole::PrintScreen(error.what());
 	}
 	catch (...)
 	{
@@ -91,7 +92,9 @@ bool MathLibSample::pushData(RawChannels* data, int size)
 	catch (std::exception error)
 	{
 		//Print Error Message on Console.
-		EConsole::PrintScreen("[[ERROR : ", error.what(), " ]]");
+
+		EConsole::PrintScreen("push data [[ERROR : ");
+		EConsole::PrintScreen(error.what());
 		return false;
 	}
 	catch (...)
@@ -118,7 +121,8 @@ bool MathLibSample::processData()
 	catch (std::exception error)
 	{
 		//Print Error Message on Console.
-		EConsole::PrintScreen("[[ERROR : ", error.what(), " ]]");
+		EConsole::PrintScreen("process data [[ERROR : ");
+		EConsole::PrintScreen(error.what());
 		return false;
 	}
 	catch (...)

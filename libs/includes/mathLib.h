@@ -48,5 +48,4 @@ public:
 
 private:
 	MathLib* _mathLib = nullptr;
-
 };

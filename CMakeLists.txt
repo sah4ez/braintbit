@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION 3.11)
 project(ExampleProject LANGUAGES CXX)
 
-set(CMAKE_C_COMPILER "gcc-8")
-#set(CMAKE_CXX_COMPILER "/usr/bin/g++-6")
+set(CMAKE_C_COMPILER "g++-8")
+# set(CMAKE_CXX_COMPILER "/usr/bin/g++-8")
 set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 include_directories(
     libs/brainbitsdk
@@ -62,9 +65,24 @@ include(FetchContent)
 # FetchContent_Declare(json URL https://github.com/nlohmann/json/releases/download/v3.11.2/json.tar.xz)
 # FetchContent_MakeAvailable(json)
 
+
+# include(FetchContent) # If not included already
+# 
+# FetchContent_Declare(sciplot_content
+#       GIT_REPOSITORY https://github.com/sciplot/sciplot.git
+#         GIT_TAG master)
+# 
+# FetchContent_GetProperties(sciplot_content)
+# if(NOT sciplot_content_POPULATED)
+#       FetchContent_Populate(sciplot_content)
+#   endif()
+# 
+# include_directories(${sciplot_content_SOURCE_DIR})
 add_executable(example main.cc)
+# add_executable(example main_plot.cc)
 #target_link_libraries(example PRIVATE nlohmann_json::nlohmann_json /home/sah4ez/hdd-backups/work/git//example/libs/brainbitsdk/libneurosdk2.so /home/sah4ez/git/brainbit/example/libs/includes/em_st_artifacts-x64.lib)
 # target_link_directories( example PRIVATE /usr/lib/x86_64-linux-gnu/ )
+#target_compile_features(example PRIVATE cxx_std_17)
 target_link_libraries(
 	example PRIVATE 
 	/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/libneurosdk2.so 
@@ -84,9 +102,9 @@ target_link_libraries(
 	# /lib/x86_64-linux-gnu/libmount.so.1
 	# /lib/x86_64-linux-gnu/libm.so.6
 	# /lib/x86_64-linux-gnu/libpcre.so.3
-	# /lib/x86_64-linux-gnu/libpthread.so.0
+    /lib/x86_64-linux-gnu/libpthread.so.0
 	# /lib/x86_64-linux-gnu/libresolv.so.2
-	# /lib/x86_64-linux-gnu/librt.so.1
+	/lib/x86_64-linux-gnu/librt.so.1
 	# /lib/x86_64-linux-gnu/libselinux.so.1
 	# /usr/lib/x86_64-linux-gnu/libstdc++.so.6
 	# /lib/x86_64-linux-gnu/libudev.so.1

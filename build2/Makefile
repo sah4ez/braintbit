@@ -169,6 +169,87 @@ libs/brainbitsdk/brainbit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.s
 .PHONY : libs/brainbitsdk/brainbit.cpp.s
 
+libs/brainbitsdk/brainbit_callback.o: libs/brainbitsdk/brainbit_callback.cpp.o
+
+.PHONY : libs/brainbitsdk/brainbit_callback.o
+
+# target to build an object file
+libs/brainbitsdk/brainbit_callback.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.o
+.PHONY : libs/brainbitsdk/brainbit_callback.cpp.o
+
+libs/brainbitsdk/brainbit_callback.i: libs/brainbitsdk/brainbit_callback.cpp.i
+
+.PHONY : libs/brainbitsdk/brainbit_callback.i
+
+# target to preprocess a source file
+libs/brainbitsdk/brainbit_callback.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.i
+.PHONY : libs/brainbitsdk/brainbit_callback.cpp.i
+
+libs/brainbitsdk/brainbit_callback.s: libs/brainbitsdk/brainbit_callback.cpp.s
+
+.PHONY : libs/brainbitsdk/brainbit_callback.s
+
+# target to generate assembly for a file
+libs/brainbitsdk/brainbit_callback.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.s
+.PHONY : libs/brainbitsdk/brainbit_callback.cpp.s
+
+libs/brainbitsdk/brainbit_em_st_artifacts.o: libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o
+
+.PHONY : libs/brainbitsdk/brainbit_em_st_artifacts.o
+
+# target to build an object file
+libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o
+.PHONY : libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o
+
+libs/brainbitsdk/brainbit_em_st_artifacts.i: libs/brainbitsdk/brainbit_em_st_artifacts.cpp.i
+
+.PHONY : libs/brainbitsdk/brainbit_em_st_artifacts.i
+
+# target to preprocess a source file
+libs/brainbitsdk/brainbit_em_st_artifacts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.i
+.PHONY : libs/brainbitsdk/brainbit_em_st_artifacts.cpp.i
+
+libs/brainbitsdk/brainbit_em_st_artifacts.s: libs/brainbitsdk/brainbit_em_st_artifacts.cpp.s
+
+.PHONY : libs/brainbitsdk/brainbit_em_st_artifacts.s
+
+# target to generate assembly for a file
+libs/brainbitsdk/brainbit_em_st_artifacts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.s
+.PHONY : libs/brainbitsdk/brainbit_em_st_artifacts.cpp.s
+
+libs/brainbitsdk/brainbit_filters.o: libs/brainbitsdk/brainbit_filters.cpp.o
+
+.PHONY : libs/brainbitsdk/brainbit_filters.o
+
+# target to build an object file
+libs/brainbitsdk/brainbit_filters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.o
+.PHONY : libs/brainbitsdk/brainbit_filters.cpp.o
+
+libs/brainbitsdk/brainbit_filters.i: libs/brainbitsdk/brainbit_filters.cpp.i
+
+.PHONY : libs/brainbitsdk/brainbit_filters.i
+
+# target to preprocess a source file
+libs/brainbitsdk/brainbit_filters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.i
+.PHONY : libs/brainbitsdk/brainbit_filters.cpp.i
+
+libs/brainbitsdk/brainbit_filters.s: libs/brainbitsdk/brainbit_filters.cpp.s
+
+.PHONY : libs/brainbitsdk/brainbit_filters.s
+
+# target to generate assembly for a file
+libs/brainbitsdk/brainbit_filters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.s
+.PHONY : libs/brainbitsdk/brainbit_filters.cpp.s
+
 libs/brainbitsdk/brainbit_info.o: libs/brainbitsdk/brainbit_info.cpp.o
 
 .PHONY : libs/brainbitsdk/brainbit_info.o
@@ -196,6 +277,114 @@ libs/brainbitsdk/brainbit_info.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.s
 .PHONY : libs/brainbitsdk/brainbit_info.cpp.s
 
+libs/brainbitsdk/brainbit_settings.o: libs/brainbitsdk/brainbit_settings.cpp.o
+
+.PHONY : libs/brainbitsdk/brainbit_settings.o
+
+# target to build an object file
+libs/brainbitsdk/brainbit_settings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.o
+.PHONY : libs/brainbitsdk/brainbit_settings.cpp.o
+
+libs/brainbitsdk/brainbit_settings.i: libs/brainbitsdk/brainbit_settings.cpp.i
+
+.PHONY : libs/brainbitsdk/brainbit_settings.i
+
+# target to preprocess a source file
+libs/brainbitsdk/brainbit_settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.i
+.PHONY : libs/brainbitsdk/brainbit_settings.cpp.i
+
+libs/brainbitsdk/brainbit_settings.s: libs/brainbitsdk/brainbit_settings.cpp.s
+
+.PHONY : libs/brainbitsdk/brainbit_settings.s
+
+# target to generate assembly for a file
+libs/brainbitsdk/brainbit_settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.s
+.PHONY : libs/brainbitsdk/brainbit_settings.cpp.s
+
+libs/brainbitsdk/brainbit_spectrum.o: libs/brainbitsdk/brainbit_spectrum.cpp.o
+
+.PHONY : libs/brainbitsdk/brainbit_spectrum.o
+
+# target to build an object file
+libs/brainbitsdk/brainbit_spectrum.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.o
+.PHONY : libs/brainbitsdk/brainbit_spectrum.cpp.o
+
+libs/brainbitsdk/brainbit_spectrum.i: libs/brainbitsdk/brainbit_spectrum.cpp.i
+
+.PHONY : libs/brainbitsdk/brainbit_spectrum.i
+
+# target to preprocess a source file
+libs/brainbitsdk/brainbit_spectrum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.i
+.PHONY : libs/brainbitsdk/brainbit_spectrum.cpp.i
+
+libs/brainbitsdk/brainbit_spectrum.s: libs/brainbitsdk/brainbit_spectrum.cpp.s
+
+.PHONY : libs/brainbitsdk/brainbit_spectrum.s
+
+# target to generate assembly for a file
+libs/brainbitsdk/brainbit_spectrum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.s
+.PHONY : libs/brainbitsdk/brainbit_spectrum.cpp.s
+
+libs/brainbitsdk/brainbit_supported_functional.o: libs/brainbitsdk/brainbit_supported_functional.cpp.o
+
+.PHONY : libs/brainbitsdk/brainbit_supported_functional.o
+
+# target to build an object file
+libs/brainbitsdk/brainbit_supported_functional.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.o
+.PHONY : libs/brainbitsdk/brainbit_supported_functional.cpp.o
+
+libs/brainbitsdk/brainbit_supported_functional.i: libs/brainbitsdk/brainbit_supported_functional.cpp.i
+
+.PHONY : libs/brainbitsdk/brainbit_supported_functional.i
+
+# target to preprocess a source file
+libs/brainbitsdk/brainbit_supported_functional.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.i
+.PHONY : libs/brainbitsdk/brainbit_supported_functional.cpp.i
+
+libs/brainbitsdk/brainbit_supported_functional.s: libs/brainbitsdk/brainbit_supported_functional.cpp.s
+
+.PHONY : libs/brainbitsdk/brainbit_supported_functional.s
+
+# target to generate assembly for a file
+libs/brainbitsdk/brainbit_supported_functional.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.s
+.PHONY : libs/brainbitsdk/brainbit_supported_functional.cpp.s
+
+libs/brainbitsdk/filtersLib.o: libs/brainbitsdk/filtersLib.cpp.o
+
+.PHONY : libs/brainbitsdk/filtersLib.o
+
+# target to build an object file
+libs/brainbitsdk/filtersLib.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.o
+.PHONY : libs/brainbitsdk/filtersLib.cpp.o
+
+libs/brainbitsdk/filtersLib.i: libs/brainbitsdk/filtersLib.cpp.i
+
+.PHONY : libs/brainbitsdk/filtersLib.i
+
+# target to preprocess a source file
+libs/brainbitsdk/filtersLib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.i
+.PHONY : libs/brainbitsdk/filtersLib.cpp.i
+
+libs/brainbitsdk/filtersLib.s: libs/brainbitsdk/filtersLib.cpp.s
+
+.PHONY : libs/brainbitsdk/filtersLib.s
+
+# target to generate assembly for a file
+libs/brainbitsdk/filtersLib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.s
+.PHONY : libs/brainbitsdk/filtersLib.cpp.s
+
 libs/includes/log.o: libs/includes/log.cpp.o
 
 .PHONY : libs/includes/log.o
@@ -222,6 +411,33 @@ libs/includes/log.s: libs/includes/log.cpp.s
 libs/includes/log.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/includes/log.cpp.s
 .PHONY : libs/includes/log.cpp.s
+
+libs/includes/mathLib.o: libs/includes/mathLib.cpp.o
+
+.PHONY : libs/includes/mathLib.o
+
+# target to build an object file
+libs/includes/mathLib.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/includes/mathLib.cpp.o
+.PHONY : libs/includes/mathLib.cpp.o
+
+libs/includes/mathLib.i: libs/includes/mathLib.cpp.i
+
+.PHONY : libs/includes/mathLib.i
+
+# target to preprocess a source file
+libs/includes/mathLib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/includes/mathLib.cpp.i
+.PHONY : libs/includes/mathLib.cpp.i
+
+libs/includes/mathLib.s: libs/includes/mathLib.cpp.s
+
+.PHONY : libs/includes/mathLib.s
+
+# target to generate assembly for a file
+libs/includes/mathLib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/libs/includes/mathLib.cpp.s
+.PHONY : libs/includes/mathLib.cpp.s
 
 libs/scanner/scanner.o: libs/scanner/scanner.cpp.o
 
@@ -304,6 +520,33 @@ main_brainbit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main_brainbit.cpp.s
 .PHONY : main_brainbit.cpp.s
 
+main_brainbit_filters.o: main_brainbit_filters.cpp.o
+
+.PHONY : main_brainbit_filters.o
+
+# target to build an object file
+main_brainbit_filters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main_brainbit_filters.cpp.o
+.PHONY : main_brainbit_filters.cpp.o
+
+main_brainbit_filters.i: main_brainbit_filters.cpp.i
+
+.PHONY : main_brainbit_filters.i
+
+# target to preprocess a source file
+main_brainbit_filters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main_brainbit_filters.cpp.i
+.PHONY : main_brainbit_filters.cpp.i
+
+main_brainbit_filters.s: main_brainbit_filters.cpp.s
+
+.PHONY : main_brainbit_filters.s
+
+# target to generate assembly for a file
+main_brainbit_filters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main_brainbit_filters.cpp.s
+.PHONY : main_brainbit_filters.cpp.s
+
 main_scanner.o: main_scanner.cpp.o
 
 .PHONY : main_scanner.o
@@ -343,12 +586,36 @@ help:
 	@echo "... libs/brainbitsdk/brainbit.o"
 	@echo "... libs/brainbitsdk/brainbit.i"
 	@echo "... libs/brainbitsdk/brainbit.s"
+	@echo "... libs/brainbitsdk/brainbit_callback.o"
+	@echo "... libs/brainbitsdk/brainbit_callback.i"
+	@echo "... libs/brainbitsdk/brainbit_callback.s"
+	@echo "... libs/brainbitsdk/brainbit_em_st_artifacts.o"
+	@echo "... libs/brainbitsdk/brainbit_em_st_artifacts.i"
+	@echo "... libs/brainbitsdk/brainbit_em_st_artifacts.s"
+	@echo "... libs/brainbitsdk/brainbit_filters.o"
+	@echo "... libs/brainbitsdk/brainbit_filters.i"
+	@echo "... libs/brainbitsdk/brainbit_filters.s"
 	@echo "... libs/brainbitsdk/brainbit_info.o"
 	@echo "... libs/brainbitsdk/brainbit_info.i"
 	@echo "... libs/brainbitsdk/brainbit_info.s"
+	@echo "... libs/brainbitsdk/brainbit_settings.o"
+	@echo "... libs/brainbitsdk/brainbit_settings.i"
+	@echo "... libs/brainbitsdk/brainbit_settings.s"
+	@echo "... libs/brainbitsdk/brainbit_spectrum.o"
+	@echo "... libs/brainbitsdk/brainbit_spectrum.i"
+	@echo "... libs/brainbitsdk/brainbit_spectrum.s"
+	@echo "... libs/brainbitsdk/brainbit_supported_functional.o"
+	@echo "... libs/brainbitsdk/brainbit_supported_functional.i"
+	@echo "... libs/brainbitsdk/brainbit_supported_functional.s"
+	@echo "... libs/brainbitsdk/filtersLib.o"
+	@echo "... libs/brainbitsdk/filtersLib.i"
+	@echo "... libs/brainbitsdk/filtersLib.s"
 	@echo "... libs/includes/log.o"
 	@echo "... libs/includes/log.i"
 	@echo "... libs/includes/log.s"
+	@echo "... libs/includes/mathLib.o"
+	@echo "... libs/includes/mathLib.i"
+	@echo "... libs/includes/mathLib.s"
 	@echo "... libs/scanner/scanner.o"
 	@echo "... libs/scanner/scanner.i"
 	@echo "... libs/scanner/scanner.s"
@@ -358,6 +625,9 @@ help:
 	@echo "... main_brainbit.o"
 	@echo "... main_brainbit.i"
 	@echo "... main_brainbit.s"
+	@echo "... main_brainbit_filters.o"
+	@echo "... main_brainbit_filters.i"
+	@echo "... main_brainbit_filters.s"
 	@echo "... main_scanner.o"
 	@echo "... main_scanner.i"
 	@echo "... main_scanner.s"

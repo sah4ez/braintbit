@@ -115,9 +115,22 @@ CMakeFiles/example.dir/main_brainbit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/main_brainbit.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/main_brainbit.cpp -o CMakeFiles/example.dir/main_brainbit.cpp.s
 
+CMakeFiles/example.dir/main_brainbit_filters.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/main_brainbit_filters.cpp.o: ../main_brainbit_filters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/example.dir/main_brainbit_filters.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/main_brainbit_filters.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/main_brainbit_filters.cpp
+
+CMakeFiles/example.dir/main_brainbit_filters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/main_brainbit_filters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/main_brainbit_filters.cpp > CMakeFiles/example.dir/main_brainbit_filters.cpp.i
+
+CMakeFiles/example.dir/main_brainbit_filters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/main_brainbit_filters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/main_brainbit_filters.cpp -o CMakeFiles/example.dir/main_brainbit_filters.cpp.s
+
 CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o: ../libs/brainbitsdk/brainbit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit.cpp
 
 CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.i: cmake_force
@@ -128,9 +141,35 @@ CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.s
 
+CMakeFiles/example.dir/libs/includes/mathLib.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/includes/mathLib.cpp.o: ../libs/includes/mathLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/example.dir/libs/includes/mathLib.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/includes/mathLib.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes/mathLib.cpp
+
+CMakeFiles/example.dir/libs/includes/mathLib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/includes/mathLib.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes/mathLib.cpp > CMakeFiles/example.dir/libs/includes/mathLib.cpp.i
+
+CMakeFiles/example.dir/libs/includes/mathLib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/includes/mathLib.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes/mathLib.cpp -o CMakeFiles/example.dir/libs/includes/mathLib.cpp.s
+
+CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.o: ../libs/brainbitsdk/filtersLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/filtersLib.cpp
+
+CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/filtersLib.cpp > CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.i
+
+CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/filtersLib.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.s
+
 CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o: ../libs/brainbitsdk/brainbit_info.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_info.cpp
 
 CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.i: cmake_force
@@ -141,9 +180,87 @@ CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_info.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.s
 
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.o: ../libs/brainbitsdk/brainbit_filters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_filters.cpp
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_filters.cpp > CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.i
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_filters.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.s
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.o: ../libs/brainbitsdk/brainbit_supported_functional.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_supported_functional.cpp
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_supported_functional.cpp > CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.i
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_supported_functional.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.s
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.o: ../libs/brainbitsdk/brainbit_callback.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_callback.cpp
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_callback.cpp > CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.i
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_callback.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.s
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o: ../libs/brainbitsdk/brainbit_em_st_artifacts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_em_st_artifacts.cpp
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_em_st_artifacts.cpp > CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.i
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_em_st_artifacts.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.s
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.o: ../libs/brainbitsdk/brainbit_settings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_settings.cpp
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_settings.cpp > CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.i
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_settings.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.s
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.o: CMakeFiles/example.dir/flags.make
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.o: ../libs/brainbitsdk/brainbit_spectrum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_spectrum.cpp
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_spectrum.cpp > CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.i
+
+CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/brainbit_spectrum.cpp -o CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.s
+
 CMakeFiles/example.dir/libs/includes/log.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/libs/includes/log.cpp.o: ../libs/includes/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/example.dir/libs/includes/log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/example.dir/libs/includes/log.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/includes/log.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes/log.cpp
 
 CMakeFiles/example.dir/libs/includes/log.cpp.i: cmake_force
@@ -156,7 +273,7 @@ CMakeFiles/example.dir/libs/includes/log.cpp.s: cmake_force
 
 CMakeFiles/example.dir/libs/scanner/scanner.cpp.o: CMakeFiles/example.dir/flags.make
 CMakeFiles/example.dir/libs/scanner/scanner.cpp.o: ../libs/scanner/scanner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/example.dir/libs/scanner/scanner.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/example.dir/libs/scanner/scanner.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/libs/scanner/scanner.cpp.o -c /home/sah4ez/hdd-backups/work/git/brainbit/example/libs/scanner/scanner.cpp
 
 CMakeFiles/example.dir/libs/scanner/scanner.cpp.i: cmake_force
@@ -172,8 +289,17 @@ example_OBJECTS = \
 "CMakeFiles/example.dir/main.cc.o" \
 "CMakeFiles/example.dir/main_scanner.cpp.o" \
 "CMakeFiles/example.dir/main_brainbit.cpp.o" \
+"CMakeFiles/example.dir/main_brainbit_filters.cpp.o" \
 "CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o" \
+"CMakeFiles/example.dir/libs/includes/mathLib.cpp.o" \
+"CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.o" \
 "CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o" \
+"CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.o" \
+"CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.o" \
+"CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.o" \
+"CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o" \
+"CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.o" \
+"CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.o" \
 "CMakeFiles/example.dir/libs/includes/log.cpp.o" \
 "CMakeFiles/example.dir/libs/scanner/scanner.cpp.o"
 
@@ -183,35 +309,27 @@ example_EXTERNAL_OBJECTS =
 example: CMakeFiles/example.dir/main.cc.o
 example: CMakeFiles/example.dir/main_scanner.cpp.o
 example: CMakeFiles/example.dir/main_brainbit.cpp.o
+example: CMakeFiles/example.dir/main_brainbit_filters.cpp.o
 example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit.cpp.o
+example: CMakeFiles/example.dir/libs/includes/mathLib.cpp.o
+example: CMakeFiles/example.dir/libs/brainbitsdk/filtersLib.cpp.o
 example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit_info.cpp.o
+example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit_filters.cpp.o
+example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit_supported_functional.cpp.o
+example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit_callback.cpp.o
+example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit_em_st_artifacts.cpp.o
+example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit_settings.cpp.o
+example: CMakeFiles/example.dir/libs/brainbitsdk/brainbit_spectrum.cpp.o
 example: CMakeFiles/example.dir/libs/includes/log.cpp.o
 example: CMakeFiles/example.dir/libs/scanner/scanner.cpp.o
 example: CMakeFiles/example.dir/build.make
 example: ../libs/brainbitsdk/libneurosdk2.so
-example: /usr/lib/x86_64-linux-gnu/libc++abi.so.1
-example: /usr/lib/x86_64-linux-gnu/libc++.so.1
-example: /lib/x86_64-linux-gnu/libblkid.so.1
-example: /lib/x86_64-linux-gnu/libc.so.6
-example: /lib/x86_64-linux-gnu/libdl.so.2
-example: /usr/lib/x86_64-linux-gnu/libffi.so.6
-example: /lib/x86_64-linux-gnu/libgcc_s.so.1
-example: /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0
-example: /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0
-example: /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0
-example: /lib/x86_64-linux-gnu/libmount.so.1
-example: /lib/x86_64-linux-gnu/libm.so.6
-example: /lib/x86_64-linux-gnu/libpcre.so.3
+example: ../libs/includes/libem_st_artifacts.so
+example: ../libs/dependencies/libc++abi.so.1
 example: /lib/x86_64-linux-gnu/libpthread.so.0
-example: /lib/x86_64-linux-gnu/libresolv.so.2
 example: /lib/x86_64-linux-gnu/librt.so.1
-example: /lib/x86_64-linux-gnu/libselinux.so.1
-example: /usr/lib/x86_64-linux-gnu/libstdc++.so.6
-example: /lib/x86_64-linux-gnu/libudev.so.1
-example: /lib/x86_64-linux-gnu/libuuid.so.1
-example: /lib/x86_64-linux-gnu/libz.so.1
 example: CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable example"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

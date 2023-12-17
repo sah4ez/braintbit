@@ -1,0 +1,3 @@
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/_deps/sciplot_content-subbuild/CMakeFiles/rebuild_cache.dir
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/_deps/sciplot_content-subbuild/CMakeFiles/edit_cache.dir
+/home/sah4ez/hdd-backups/work/git/brainbit/example/build2/_deps/sciplot_content-subbuild/CMakeFiles/sciplot_content-populate.dir
