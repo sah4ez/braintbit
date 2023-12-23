@@ -32,6 +32,7 @@ set(
     libs/includes/spectrumLib.h
     libs/brainbitsdk/brainbit.h
     libs/brainbitsdk/cmn_type.h
+    libs/brainbitsdk/signalCallback.h
 	libs/brainbitsdk/filtersLib.h
 	libs/brainbitsdk/main_brainbit_em_st_artifacts.h
 	# libs/brainbitsdk/em_st_artifacts_common_api.h
@@ -92,7 +93,7 @@ target_link_libraries(
 	# /usr/lib/x86_64-linux-gnu/libc++.so.1
 	# # /lib64/ld-linux-x86-64.so.2
 	# /lib/x86_64-linux-gnu/libblkid.so.1
-	# /lib/x86_64-linux-gnu/libc.so.6
+    /lib/x86_64-linux-gnu/libc.so.6
 	# /lib/x86_64-linux-gnu/libdl.so.2
 	# /usr/lib/x86_64-linux-gnu/libffi.so.6
 	# /lib/x86_64-linux-gnu/libgcc_s.so.1

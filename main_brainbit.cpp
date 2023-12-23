@@ -36,13 +36,7 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
     int32_t gain = brainbit->readGain();
     std::cout << "gain: " << gain << std::endl;
 
-    MathLibSample* mathLib = new MathLibSample();
-    //
-    //      //If lib is null, stop code
-    if (mathLib == nullptr)
-            return;
-
-    brainbit->AddSignalCallbackBrainBit_EmStArtifacts(mathLib);
+    brainbit->AddSignalCallbackBrainBit();
     //
 
     SensorParameter parameter =  SensorParameter::ParameterSamplingFrequency;
@@ -75,6 +69,6 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
 
 	//If you don't use object of custom class, you need to
 	// delete to clear memory.
-    brainbit->RemoveSignalCallbackBrainBit_EmStArtifacts();
+    brainbit->RemoveSignalCallbackBrainBit();
 	delete brainbit;
 }

@@ -34,8 +34,8 @@ SampleBrainBit::~SampleBrainBit()
 			// removeBatteryCallback(_lBattPowerHandle);
 		// if (_lStateHandle != 0)
 			// removeConnectionStateCallback(_lStateHandle);
-		// if (_lSignalDataHandle != 0)
-			// removeSignalDataCallbackBrainBit(_lSignalDataHandle);
+        if (_lSignalDataHandle != 0)
+            removeSignalDataCallbackBrainBit(_lSignalDataHandle);
 		// if (_lResistDataHandle != 0)
 			// removeResistCallbackBrainBit(_lResistDataHandle);
 //

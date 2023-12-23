@@ -3,7 +3,7 @@
 //#include "batteryCallback.h"
 //#include "connectionCallback.h"
 //#include "resistCallback.h"
-//#include "signalCallback.h"
+#include "signalCallback.h"
 //
 //bool SampleBrainBit::AddBatteryCallback()
 //{
@@ -79,42 +79,42 @@
 //	}
 //}
 //
-//bool SampleBrainBit::AddSignalCallbackBrainBit()
-//{
-//	try
-//	{
-//		//Check if our sensor is empty or not.
-//		if (_sensor == nullptr)
-//		{
-//			throw std::invalid_argument("Null sensor!");
-//		}
-//
-//		OpStatus outStatus;
-//
-//		bool result = addSignalDataCallbackBrainBit(_sensor, SignalCallback, &_lSignalDataHandle, nullptr, &outStatus);
-//
-//		if (!result)
-//		{
-//			throw std::invalid_argument(outStatus.ErrorMsg);
-//		}
-//
-//		return true;
-//	}
-//	catch (std::exception error)
-//	{
-//		//Print Error Message on Console.
-//		EConsole::PrintScreen("[[ERROR : ", error.what(), " ]]");
-//		//Return false value means our algorythm is working incorrect.
-//		return false;
-//	}
-//	catch (...)
-//	{
-//		//Print Error Message on Console (unknown error).
-//		EConsole::PrintScreen("[[ERROR : Invalid error! ]]");
-//		//Return false value means our algorythm is working incorrect.
-//		return false;
-//	}
-//}
+bool SampleBrainBit::AddSignalCallbackBrainBit()
+{
+    try
+    {
+        //Check if our sensor is empty or not.
+        if (_sensor == nullptr)
+        {
+            throw std::invalid_argument("Null sensor!");
+        }
+
+        OpStatus outStatus;
+
+        bool result = addSignalDataCallbackBrainBit(_sensor, SignalCallback, &_lSignalDataHandle, nullptr, &outStatus);
+
+        if (!result)
+        {
+            throw std::invalid_argument(outStatus.ErrorMsg);
+        }
+
+        return true;
+    }
+    catch (std::exception error)
+    {
+        //Print Error Message on Console.
+        EConsole::PrintScreen("[[ERROR : ", error.what(), " ]]");
+        //Return false value means our algorythm is working incorrect.
+        return false;
+    }
+    catch (...)
+    {
+        //Print Error Message on Console (unknown error).
+        EConsole::PrintScreen("[[ERROR : Invalid error! ]]");
+        //Return false value means our algorythm is working incorrect.
+        return false;
+    }
+}
 //
 //bool SampleBrainBit::AddResistDataCallbackBrainBit()
 //{
@@ -227,42 +227,42 @@
 //	}
 //}
 //
-//bool SampleBrainBit::RemoveSignalCallbackBrainBit()
-//{
-//	try
-//	{
-//		//Check if our sensor is empty or not.
-//		if (_sensor == nullptr)
-//		{
-//			throw std::invalid_argument("Null sensor!");
-//		}
-//
-//		//Check if handle is empty or not.
-//		if (_lSignalDataHandle == 0)
-//		{
-//			throw std::invalid_argument("Null Signal data handle!");
-//		}
-//
-//		removeSignalDataCallbackBrainBit(_lSignalDataHandle);
-//		_lSignalDataHandle = 0;
-//
-//		return true;
-//	}
-//	catch (std::exception error)
-//	{
-//		//Print Error Message on Console.
-//		EConsole::PrintScreen("[[ERROR : ", error.what(), " ]]");
-//		//Return false value means our algorythm is working incorrect.
-//		return false;
-//	}
-//	catch (...)
-//	{
-//		//Print Error Message on Console (unknown error).
-//		EConsole::PrintScreen("[[ERROR : Invalid error! ]]");
-//		//Return false value means our algorythm is working incorrect.
-//		return false;
-//	}
-//}
+bool SampleBrainBit::RemoveSignalCallbackBrainBit()
+{
+    try
+    {
+        //Check if our sensor is empty or not.
+        if (_sensor == nullptr)
+        {
+            throw std::invalid_argument("Null sensor!");
+        }
+
+        //Check if handle is empty or not.
+        if (_lSignalDataHandle == 0)
+        {
+            throw std::invalid_argument("Null Signal data handle!");
+        }
+
+        removeSignalDataCallbackBrainBit(_lSignalDataHandle);
+        _lSignalDataHandle = 0;
+
+        return true;
+    }
+    catch (std::exception error)
+    {
+        //Print Error Message on Console.
+        EConsole::PrintScreen("[[ERROR : ", error.what(), " ]]");
+        //Return false value means our algorythm is working incorrect.
+        return false;
+    }
+    catch (...)
+    {
+        //Print Error Message on Console (unknown error).
+        EConsole::PrintScreen("[[ERROR : Invalid error! ]]");
+        //Return false value means our algorythm is working incorrect.
+        return false;
+    }
+}
 //
 //bool SampleBrainBit::RemoveResistDataCallbackBrainBit()
 //{
