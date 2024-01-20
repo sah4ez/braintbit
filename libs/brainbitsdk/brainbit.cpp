@@ -1,6 +1,6 @@
 #include "brainbit.h"
 
-SampleBrainBit::SampleBrainBit(Sensor* sensor)
+SampleBrainBit::SampleBrainBit(Sensor* sensor, clickhouse::Client* client)
 {
 	//Constructor of class
 	//This functions will be called when you create class.
@@ -9,6 +9,7 @@ SampleBrainBit::SampleBrainBit(Sensor* sensor)
 
 	//Copy object of Sensor
 	_sensor = sensor;
+    _client = client;
 }
 
 SampleBrainBit::~SampleBrainBit()
@@ -21,6 +22,11 @@ SampleBrainBit::~SampleBrainBit()
 		if (_sensor == nullptr)
 		{
 			throw std::invalid_argument("Null sensor!");
+		}
+		//Check if our sensor is empty or not.
+		if (_client == nullptr)
+		{
+			throw std::invalid_argument("Null client!");
 		}
 
 		//Safety delete object of sensor. Use it for deleting objects

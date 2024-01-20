@@ -57,6 +57,7 @@
 #include "mathLib.h"
 #include "filtersLib.h"
 #include "spectrumLib.h"
+#include <clickhouse/client.h>
 
 class SampleBrainBit
 {
@@ -67,7 +68,7 @@ public:
 	// ==============
 
 	//Constructor % Destructor
-	SampleBrainBit(Sensor* sensor);
+	SampleBrainBit(Sensor* sensor, clickhouse::Client* client);
 	~SampleBrainBit();
 
 	//Connect to device
@@ -183,6 +184,8 @@ public:
 private:
 	//Object Sensor (our device)
 	Sensor* _sensor;
+
+    clickhouse::Client* _client;
 
 	//Handle of Battery Power Callback
 	BattPowerListenerHandle _lBattPowerHandle = 0;

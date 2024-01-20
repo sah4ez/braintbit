@@ -9,10 +9,11 @@
 // [[Example using scanner (folder 'scanner') ]]
 
 #include "brainbit.h"
+#include <clickhouse/client.h>
 
 // =============
 // || SCANNER ||
 // =============
 
-void SampleBrainBitFunction(Sensor* sensor_brainbit);
+void SampleBrainBitFunction(Sensor* sensor_brainbit, clickhouse::Client* client);
 

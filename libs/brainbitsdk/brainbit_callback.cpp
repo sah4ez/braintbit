@@ -88,10 +88,13 @@ bool SampleBrainBit::AddSignalCallbackBrainBit()
         {
             throw std::invalid_argument("Null sensor!");
         }
+        if (_client == nullptr) {
+            throw std::invalid_argument("Null client!");
+        }
 
         OpStatus outStatus;
 
-        bool result = addSignalDataCallbackBrainBit(_sensor, SignalCallback, &_lSignalDataHandle, nullptr, &outStatus);
+        bool result = addSignalDataCallbackBrainBit(_sensor, SignalCallback, &_lSignalDataHandle, _client, &outStatus);
 
         if (!result)
         {

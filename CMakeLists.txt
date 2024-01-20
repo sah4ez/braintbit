@@ -1,17 +1,19 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.12)
 project(ExampleProject LANGUAGES CXX)
 
-set(CMAKE_C_COMPILER "g++-8")
+# set(CMAKE_C_COMPILER "/usr/bin/g++-10")
 # set(CMAKE_CXX_COMPILER "/usr/bin/g++-8")
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include_directories(
     libs/brainbitsdk
     libs/includes
     libs/scanner
+    /usr/include/c++/12
     # libs/dependencies
     )
 
@@ -84,8 +86,15 @@ add_executable(example main.cc)
 #target_link_libraries(example PRIVATE nlohmann_json::nlohmann_json /home/sah4ez/hdd-backups/work/git//example/libs/brainbitsdk/libneurosdk2.so /home/sah4ez/git/brainbit/example/libs/includes/em_st_artifacts-x64.lib)
 # target_link_directories( example PRIVATE /usr/lib/x86_64-linux-gnu/ )
 #target_compile_features(example PRIVATE cxx_std_17)
+
+
+add_subdirectory(clickhouse-cpp)
+
+target_include_directories(example PRIVATE clickhouse-cpp/ clickhouse-cpp/contrib/absl)
+
 target_link_libraries(
 	example PRIVATE 
+    clickhouse-cpp-lib
 	/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/brainbitsdk/libneurosdk2.so 
 	/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/includes/libem_st_artifacts.so
 	/home/sah4ez/hdd-backups/work/git/brainbit/example/libs/dependencies/libc++abi.so.1
@@ -94,7 +103,7 @@ target_link_libraries(
 	# # /lib64/ld-linux-x86-64.so.2
 	# /lib/x86_64-linux-gnu/libblkid.so.1
     /lib/x86_64-linux-gnu/libc.so.6
-	# /lib/x86_64-linux-gnu/libdl.so.2
+    /lib/x86_64-linux-gnu/libdl.so.2
 	# /usr/lib/x86_64-linux-gnu/libffi.so.6
 	# /lib/x86_64-linux-gnu/libgcc_s.so.1
 	# /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0

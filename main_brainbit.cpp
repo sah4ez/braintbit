@@ -1,17 +1,18 @@
 #include "main_brainbit.h"
 #include "mathLib.h"
 #include <unistd.h>
+#include <clickhouse/client.h>
 
 // ==============
 // || BRAINBIT ||
 // ==============
 
-void SampleBrainBitFunction(Sensor* sensor_brainbit)
+void SampleBrainBitFunction(Sensor* sensor_brainbit, clickhouse::Client* client)
 {
 	//Create custom object of BrainBit.
 	//If you want to know, how to work with device ('LEBrainBit & LEBrainBitBlack')
 	//you can look in folder 'brainbit'.
-	SampleBrainBit* brainbit = new SampleBrainBit(sensor_brainbit);
+	SampleBrainBit* brainbit = new SampleBrainBit(sensor_brainbit, client);
 
 	//In this examples you can see some functions to
 	//control device 'LEBrainBit & LEBrainBitBlack'.
@@ -65,7 +66,7 @@ void SampleBrainBitFunction(Sensor* sensor_brainbit)
 
 
     EConsole::PrintLog("exec command and wait callback");
-    sleep(100);
+    sleep(60*60);
 
 	//If you don't use object of custom class, you need to
 	// delete to clear memory.
