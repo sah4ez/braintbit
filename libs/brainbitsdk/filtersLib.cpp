@@ -32,11 +32,11 @@ FiltersLibSample::FiltersLibSample()
 			int num = params[i].type;
 
 			char charray[200];
-			sprintf(charray, "%2.13f", num);
+			sprintf(charray, "%2.13d", num);
 			EConsole::PrintLog("FilterType: ");
 			EConsole::PrintLog(charray);
 
-			sprintf(charray, "%2.13f", params[i].samplingFreq);
+			sprintf(charray, "%2.13d", params[i].samplingFreq);
 			EConsole::PrintLog("SamplingFreq: ");
 			EConsole::PrintLog(charray);
 
